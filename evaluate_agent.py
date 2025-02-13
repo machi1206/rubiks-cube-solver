@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 env = RubiksCubeEnv()
-model = PPO.load("rubiks solver PPO/rubiks_cube_solver.zip")
+model = PPO.load("rubiks_cube_solver.zip")
 
 obs = env.reset()
 
